@@ -37,9 +37,6 @@ objectA <- c("a", "b", "c")
 objectB <- c("d", "e", "f")
 
 removeExcept("objectA")
-
-ls()
-#> [1] "objectA" "objectB"
 ```
 
 Pass more than one object name as a string to retain multiple objects.
@@ -51,7 +48,4 @@ objectC <- c("g", "h", "i")
 objectD <- c("j", "k", "l")
 
 removeExcept(c("objectA", "objectB"))
-
-ls()
-#> [1] "objectA" "objectB" "objectC" "objectD"
 ```
