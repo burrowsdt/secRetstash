@@ -1,15 +1,13 @@
 Package: secRetstash
-Title: What the Package Does (One Line, Title Case)
+Title: A Totally Random Collection of Functions that May or May Not Be Useful to You
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Trevor",
+           family = "Burrows",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "trevor.burrows@gmail.com")
+Description: `secRetstash` is a package that holds functions I use to make my R life easier. Although it is mainly intended for personal use and R practice, you are welcome to poke around and install if you find anything useful!
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

@@ -2,7 +2,7 @@
 % Please edit documentation in R/removeExcept.R
 \name{removeExcept}
 \alias{removeExcept}
-\title{Remove all items objects from global environment except those specified by user.}
+\title{Remove all items objects from global environment except those specified by user}
 \usage{
 removeExcept(x)
 }
@@ -13,10 +13,11 @@ removeExcept(x)
 
 }
 \description{
-Remove all items objects from global environment except those specified by user.
+Remove all items objects from global environment except those specified by user. Code adapted from \href{https://stackoverflow.com/questions/6190051/how-can-i-remove-all-objects-but-one-from-the-workspace-in-r}{this Stack Overflow thread}
 }
 \examples{
-firstObject <- c(a, b, c)
-secondObject <- c(x, y, z)
+firstObject <- c("a", "b", "c")
+secondObject <- c("d", "e", "f")
 removeExcept("secondObject")
+ls()
 }
